@@ -1,0 +1,71 @@
+
+        *
+        {
+            color: white;
+            background-color: black;
+        }
+        .nav
+        {
+            border: 3px solid black;
+            height: 50px;
+            width: auto;
+            justify-content:space-evenly;
+            position: relative;
+            display: flex;
+            background-color: rgb(0, 0, 0);
+        }
+        a
+        {
+            position:absolute;
+            text-decoration: none;
+        }
+        a:hover
+        {
+            color: blue;
+            transform:scale(1.5)
+        }
+        .img
+        {
+            position: relative;
+            top: 40px;
+            display: flex;
+            justify-content: center;
+        }
+        .image
+        {
+            width:250px;
+        }
+        img:hover
+        {
+            transform: scale(1.5);
+        }
+        .img p
+        {
+            position: relative;
+            top: 20px;
+            justify-content: center;
+            text-align:end;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+        h1
+        {
+            position: relative;
+            font-size:800%;
+            text-align: center;
+            animation: move 10s linear;
+            z-index: 5;
+            background: none;
+        }
+        @keyframes move
+        {
+            from
+            {
+                text-align: center;
+                transform: translateY(0px);
+            }
+            to
+            {
+                text-align: center;
+                transform: translateY(-300px);
+            }
+        }
